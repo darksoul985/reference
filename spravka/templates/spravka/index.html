@@ -3,9 +3,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{% if title %}{{title|title}} - {% endif %}</title>
+    <title>{% if title %}{{title|title}}{% endif %}</title>
 </head>
 <body>
-    <p>{{ message }}</p>
+    <h1>Блок справки</h1>
+    {{ tasks.name }}
+
 </body>
 </html>
